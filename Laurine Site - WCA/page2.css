@@ -1,0 +1,157 @@
+body{
+	margin:0;
+	padding: 0;
+	background: #C8E6C9;
+}
+
+header{
+	height: 75px;
+	width: 100%;
+	background-color: rgba(102, 187, 106,0.1);
+}
+
+#pic{
+	width:100%;
+	height: 30%;
+	background:url(img/monkey.jpg) no-repeat center;
+}
+
+h1{
+	padding: 12px;
+	text-align:center;
+	font-size: 30pt;
+	font-family: 'Allerta Stencil', sans-serif;
+	color:#557f55;
+}
+ 
+aside, article{
+	display:table-cell;
+}
+
+aside{
+	width:25%; 
+	height: 100%; 
+	background-color: #F5F5F5; 
+	text-align:center; 
+	border: 1px solid #DCEDC8; 
+	padding:11px;
+}
+
+aside h4{
+	color:#E57373;
+	font-size: 17pt;
+	font-family: 'Old Standard TT', serif;
+}
+
+aside p{
+	text-align:justify;
+	font-size: 12pt;
+	font-family: 'Hind Vadodara', sans-serif;
+	padding: 13px;
+	color:#424242;
+}
+
+.don{
+	width: 98%;
+	height: 200px;
+	background-color: transparent;
+}
+
+.don h4{
+	padding:2px;
+	color:rgba(102, 187, 106,0.6);
+	font-size: 33pt;
+	font-family: 'Old Standard TT', serif;
+}
+
+.don p{
+	width: 70%;
+	height: 16%;
+	display: block;
+	margin:auto;
+	text-align: center;
+	background-color: rgba(102, 187, 106,0.6);
+    border-radius: 5px;
+}
+
+.don a{
+	text-decoration: none;
+    color:white;
+    font-size: 15pt;
+}
+
+article{
+	height: 100%;
+	background-color: #27a770;
+	background-image: linear-gradient(315deg, #27a770 0%, #efefef 74%); 
+	border: 1px solid #DCEDC8; 
+	padding:20px;
+	text-align:justify;
+}
+
+article h2{
+	text-align:left;
+	text-decoration: overline;
+	font-family: 'Hind Vadodara', sans-serif;
+	padding-top: 52px;
+	font-size:22pt;
+	color:#CDB7B3;
+}
+
+article iframe{
+	display:block;
+}
+
+article a{
+	font-size: 10pt;
+	color:#0091EA;
+	float: left;
+}
+
+article img{
+	float: right;
+	border-radius: 17px;
+}
+
+article h4{
+	margin-top: 90px;
+	font-size:18.5pt;
+	font-family: 'Old Standard TT', serif;
+	color: #2D584A;
+	padding: 9px;
+	text-align:justify;
+	background-color: transparent;
+	padding-bottom: 45px;
+}
+
+article p{
+	width: 65%;
+	font-size:14pt;
+	font-family:tahoma ;
+	color:#2D584A;
+	text-align:justify;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+footer{
+	height: 55px; 
+	width: 100%; 
+	background:url(img/backg.jpg) no-repeat center; 
+	text-align:center; 
+	line-height:50px; 
+	margin-top: -17px;
+}
+
+footer a{
+	color: white; 
+	font-size:17pt;
+	text-decoration:none;
+	font-weight:200;
+	margin:15px;
+}
+
+footer a:hover{
+	color:#E1F5FE;
+	text-decoration:underline;
+}

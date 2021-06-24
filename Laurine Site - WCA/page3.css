@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #F5F5F5;
+}
+
+#proj {
+	width:100%;
+	height: 30%;
+	background:url(img/Bground.jpg);
+}
+
+h1 {
+	text-align: center;
+	color: #557f55;
+	font-size: 30pt;
+	padding: 12px;
+	font-family: 'Allerta Stencil', sans-serif;	
+	background-color: rgba(102, 187, 106,0.4);
+}
+
+#trafics, #sauvetage{
+	display:inline-block;
+}
+
+#sauvetage{
+	width: 49%;
+	height: 52%;
+	background-color: transparent;
+	margin: 10px;
+}
+
+#sauvetage h2{
+	text-align: center;
+	color: black;
+	font-family: 'Manrope', sans-serif;
+	padding-bottom: 15px;
+	text-decoration: overline;
+}
+
+iframe{
+	display: block;
+	margin: auto;
+}
+
+#sauvetage p{
+	text-align: center;
+	color: black;
+	font-size: 12pt;
+	font-family: 'Hind Vadodara', sans-serif;
+	padding-bottom: 15px;
+}
+
+
+#trafics{
+	width: 45%;
+	height: 55%;
+	background-color:transparent;
+}
+
+#trafics img{
+	display: block;
+	margin: auto;
+	box-shadow:0px 0px 20px gray;
+}
+
+#trafics h2{
+	text-decoration: overline;
+	text-align: center;
+	font-family: 'Manrope', sans-serif;
+	padding: 15px;
+}
+
+#trafics p{
+	text-align: center;
+	font-family: 'Hind Vadodara', sans-serif;
+	padding-bottom: 15px;
+}
+
+#trafics a{
+	background: transparent;	
+	color:#0091EA;
+	font-size: 10pt;
+}
+
+#rn{
+	width: 100%;
+	height: 550px;
+	margin-top: 50px;
+	background:url(img/renat.jpg) no-repeat center;
+	box-shadow: 0px 0px 12px 4px #636464;
+}
+
+#rn h1{
+	text-align: center;
+	color:white;
+	font-size: 35px;
+	background-color: transparent;
+	padding-top: 180px;
+	padding-bottom: 30px;
+	font-family: Tahoma;
+	font-weight: 400;
+}
+
+#rn p{
+	width: 1250px;
+	text-align: center;
+	background-color: transparent;
+	font-size:15pt;
+	font-weight: 200;
+	color: white;
+	font-family: system-ui;
+	display: block;
+	margin: auto;
+}
+
+.trait{
+	width:450px;
+	border:1px solid white;
+	display: block;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+
+#reserveN{
+	width:100%;
+	height:550px;
+	background:transparent;
+	margin-top:90px;
+}
+
+.colone{
+	width:410px;
+	height:250px;
+	background:#E0E0E0;
+	padding:10px;
+	box-shadow:0px 0px 20px #504E4E;
+}
+
+.haut{
+	width:250px;
+	height:50px;
+	background:#DCEDC8;
+	margin:auto;
+	border-radius: 5px;
+}
+
+.haut h2{
+	text-align:center;
+	font-size:15pt;
+	padding-top:10px;
+	font-family: 'Allerta Stencil', sans-serif;	
+	color:#222823;
+}
+
+.img-product{
+	width:150px;
+	height:150px;
+	padding:5px;
+	margin:auto;
+	margin-top:15px;
+}
+
+.img-product img{
+	display:block;
+	margin:auto;
+	margin-left: -70px;
+	margin-top: -10px;
+}
+
+.text-product{
+	width:270px;
+	background:transparent;
+	margin:auto;
+	margin-top:50px;
+}
+
+.text-product p{
+	font-size:15pt;
+	text-align:justify;
+	background:transparent;
+	color:#222823;
+}
+
+.cta-product{
+	width:200px;
+	height:40px;
+	background:#222823;
+	display:block;
+	margin:auto;
+	padding-top:10px;
+	margin-top: 20px;
+	border-radius:50px;
+}
+
+.cta-product a{
+	text-align:center;
+	display:block;
+	margin:auto;
+	font-size:16pt;
+	color:white;
+	text-decoration:none;
+	background-color: transparent;
+}
+
+.colone:hover{
+	background:#F5F5F5;
+	transition:all 0.6s linear;
+}
+
+.colone:hover .img-product, 
+.colone:hover .text-product{
+	background:transparent;
+	transition:all 0.6s linear;
+}
+
+.colone:hover h2{
+	color:#9CCC65;
+	transition:all 0.6s linear;
+}
+
+.colone:hover .cta-product a{
+	background:#DCEDC8;
+	color:black;
+	transition:all 0.6s linear;
+}
+
+.colone:hover .cta-product{
+	background:#DCEDC8;	
+}
+
+#reserveN li{
+	display:inline-block;
+	margin-right:15px;
+	margin-left: 22px;
+}
+
+footer{
+	height: 55px; 
+	width: 100%; 
+	background:url(img/backg.jpg) no-repeat center; 
+	text-align:center; 
+	line-height:50px; 
+}
+
+footer a{
+	color: white; 
+	font-size:17pt;
+	text-decoration:none;
+	font-weight:200;
+	margin:15px;
+	background-color: transparent;
+}
+
+footer a:hover{
+	color:#E1F5FE;
+	text-decoration:underline;
+}
